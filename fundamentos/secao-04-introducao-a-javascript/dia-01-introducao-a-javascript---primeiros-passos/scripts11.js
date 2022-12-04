@@ -1,4 +1,4 @@
-let peca = 'PEÃO';
+let peca = 'banana';
 let pecaLower = peca.toLocaleLowerCase();
 
 switch (pecaLower) {
@@ -24,4 +24,8 @@ switch (pecaLower) {
     
     case 'peão':
         console.log('Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas. O peão é a única peça que não pode retroceder, e também a única que efetua a captura com um movimento diferente do utilizado para avançar no tabuleiro. O peão pode capturar as peças que estejam uma fileira acima, mas nas colunas adjacentes a sua.');
+        break;
+    
+    default:
+        console.log('Desculpe, não conheço essa peça. Poderia verificar e informar novamente por gentileza?');
 }
